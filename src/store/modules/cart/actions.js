@@ -14,7 +14,7 @@ const actions = {
         })
     },
     changeQuantity ({ commit }, cartItem) {
-        commit('ADD_CART_ITEM', cartItem);
+        commit('CHANGE_QUANTITY_CART_ITEM', cartItem);
     },
 };
 

@@ -34,7 +34,7 @@
 
                 <td class="quantity">
                   <div class="input-group mb-3">
-                    <input @change="changeQuantityItem(cartItem)" type="number" name="quantity" class="quantity form-control input-number" :value="cartItem.quantity" min="1"
+                    <input @change="changeQuantityItem(cartItem)" type="number" name="quantity" class="quantity form-control input-number" v-model="cartItem.quantity" min="1"
                            max="100">
                   </div>
                 </td>
