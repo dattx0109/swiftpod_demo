@@ -22,7 +22,9 @@
                 CART
               </router-link>
             </li>
-            <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><span class="icon-shopping_cart"></span>[{{ cartQuantity }}]</a></li>
+            <li class="nav-item cta cta-colored">
+              <router-link to="/cart" class="nav-link"><span class="icon-shopping_cart"></span>[{{ cartQuantity }}]</router-link>
+            </li>
           </ul>
         </div>
       </div>

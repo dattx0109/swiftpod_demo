@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     ...mapActions({
-      changeQuantityItem: 'cart/addCartItem',
+      changeQuantityItem: 'cart/changeQuantity',
     })
   }
 }
